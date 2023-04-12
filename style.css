@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+    color: hsl(170, 45%, 43%);
+}
+
+header .nav-link {
+    color:  hsl(238, 22%, 44%);
+}
+
+section h1,  P {
+    font-family: "Open Sans",sans-serif;
+}
+
+section h2 {
+    font-family: "Raleway",sans-serif;
+}
+
+section:nth-child(3) p {
+    color:  hsl(238, 22%, 44%);    
+}
+
+section:nth-child(3) {
+    background-image: url(/images/bg-curve-mobile.svg);
+    background-size: cover;
+    background-position: top;
+   
+}
+
+section:nth-child(4) {
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+}
+
+footer img {
+    filter: brightness(0) invert(1);
+}
+
+footer ul li {
+    color :white
+}
+
+
